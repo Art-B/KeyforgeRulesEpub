@@ -1,0 +1,60 @@
+body { background-color: antiquewhite }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: sans-serif;
+}
+
+h1, h2 { text-transform: uppercase }
+
+h3, h4 { color: aqua }
+
+h1{ text-decoration: underline dotted darkgrey; }
+blockquote { font-style: italic; }
+
+li::marker { content: "•"; color: aqua }
+
+/* IF ABOVE DOESN'T WORK... */
+ul {list-style: none}
+ul li::before {content: "•"; color: aqua }
+
+span.keyword { font-weight: bold }
+span.keyword::before { content: "\""; }
+span.keyword::after { content: "\":"; }
+
+p.example { font-style: italic }
+p.example::before {
+    font-weight: bold;
+    content: "Example:";
+}
+
+table#chains{
+    margin-left: auto;
+    margin-right: auto;
+}
+table#chains tr td:first-child {
+    text-align: center;
+}
+
+dl#errata > dd::before{
+    content: "Should read: \"";
+    font-style: normal;
+}
+
+dl#errata > dt {
+    font-weight: bold;
+    text-decoration: underline dotted black;
+}
+
+dl#errata > dd{
+    font-style: italic;
+}
+
+dl#errata > dd::after{
+    content: "\"";
+    font-style: normal;
+}
+
+dt {
+    margin-top: 2em;
+    margin-bottom: 0.5em;
+}

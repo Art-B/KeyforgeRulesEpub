@@ -1,0 +1,324 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+	<head>
+		<title>Playing Cards</title>
+		<link rel="stylesheet" href="css/keyforge.css"/>
+	</head>
+	<body>
+		<h1>Playing Cards</h1>
+
+		<h2>General</h2>
+		<div>
+			The active player is permitted to play any number of cards that belong to
+			the active house during step three of their turn.
+
+			<h3>ÆMBER BONUS</h3>
+			<img src="img/amber-bonus.jpg" alt="An example of an Æmber bonus"/>
+			<p>
+				Many cards in the game have an Æmber bonus below the house icon. When a card with an Æmber bonus is played, the first thing the active player does is gain that much Æmber. Each time a player gains Æmber (for any reason), the Æmber is placed in that player’s Æmber pool (on their identity card).
+			</p>
+
+			<h3>Play Abilities</h3>
+			<p>
+				Some cards have a bold “<q class="keyword">Play:</q>” ability. Such abilities resolve after the card’s Æmber bonus is collected, if it has any, and after the card enters play.
+			</p>
+		</div>
+
+		<h2>Card Types</h2>
+		<div>
+			<p>There are four types of cards in the game:</p>
+			<ul>
+				<li><a href="#action_type"><q class="type">action</q></a></li>
+				<li><a href="#artifact_type"><q class="type">artifact</q></a></li>
+				<li><a href="#creature_type"><q class="type">creature</q></a></li>
+				<li><a href="#upgrade_type"><q class="type">upgrade</q></a></li>
+			</ul>
+
+			<p>There are different rules describing how each card type is played.</p>
+
+			<div>
+				<h3><a id="action_type">Action Cards</a></h3>
+				<img src="img/action-card.jpg" alt="An example of an action card: 'Warsong'"/>
+				<p>
+					When an action card is played, the active player resolves the card’s “<q class="keyword">Play:</q>” ability and, after resolving as much of the ability as possible, places the card in their discard pile.
+				</p>
+			</div>
+
+
+			<div>
+				<h3><a id="artifact_type">Artifacts</a></h3>
+				<img src="img/artifact-card.jpg" alt="An example of an artifact card: 'Gauntlet of Command'"/>
+				<p>
+					Artifacts enter play <em>exhausted</em> and are placed in a row in front of the player but <em><strong>behind</strong> that player’s <a href="#battleline">battleline</a></em>, which is explained as part of <a href="#creature_type"><q class="type">creature</q> cards</a> . Artifacts remain in play from turn to turn.
+				</p>
+			</div>
+
+
+			<div>
+				<h3><a id="creature_type">Creatures</a></h3>
+				<img src="img/creature.jpg" alt="An example of a creature card: 'Staunch Knight'"/>
+				<p>
+					Creatures enter play exhausted and are placed in the front row of the active player’s play area. This row is referred to as the <a id="battleline"><span class="game_term">battleline</span></a>. Creatures remain in play from turn to turn, and they each have power and armor values that they use to resolve fights, which are described later.
+				</p>
+				<img src="img/battleline.jpg" alt="An illustration of a battleline" />
+				<p>
+					Each time a creature enters play, it must be placed on a flank—at the far left or the far right of its controller’s battleline.
+				</p>
+				<img src="img/flank.jpg" alt="An illustration of adding a creature to the flank of a battle line"/>
+				<p>
+					Each time a creature leaves play, shift the battleline inward to close the gap.
+				</p>
+				<img src="img/shift-battleline.jpg" alt="An illustration of removing a creature from a battle line and closing the rank"/>
+			</div>
+
+
+			<div>
+				<h3><a id="upgrade_type">Upgrades</a></h3>
+				<img src="img/upgrades.jpg" alt="An example of an upgrade card 'Protect the Weak' being play on the creature card 'Quixo the &quot;Adventurer&quot;'"/>
+				<p>
+					Upgrades enter play attached to (i.e., partially overlapped by) a creature chosen by the player who controls the upgrade. Each upgrade remains in play from turn to turn and modifies the card to which it is attached.
+				</p>
+				<ul>
+					<li>
+						If the card to which an upgrade is attached leaves play, the upgrade is discarded.
+					</li>
+					<li>
+						If an upgrade cannot attach to a card in play, the upgrade cannot enter play.
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<h2>Discarding Cards</h2>
+		<div>
+			<p>
+				The active player can discard from their hand any number of cards from the active house during step three of their turn. Cards are discarded one at a time, at any point throughout this step. This lets players remove cards that they do not want to play from their hand, freeing up space to draw more cards at the end of the turn.
+			</p>
+		</div>
+
+		<h2>Using Cards</h2>
+		<div>
+			<h3>General</h3>
+			<p>
+				The active player can use any number of cards from the active house that they have in play during step three of their turn. Depending on a card’s type, the active player is able to do different things when using that card.
+			</p>
+
+			<h3>Upgrades</h3>
+			<p>
+				An upgrade modifies the creature it is attached to and is not used independently of that creature.
+			</p>
+
+			<h3>Using Artifacts</h3>
+			<div>
+				<p>
+					There are two types of abilities that enable a player to use an artifact: <span class="keyword">Action:</span> abilities and <span class="keyword">Omni:</span> abilities.
+				</p>
+				<ul>
+					<li>When a player uses an artifact, they exhaust the card and then resolve its abilities.</li>
+					<li>A player can only use an <span class="keyword">Action:</span> ability if it is on a card that belongs to the active house.</li>
+					<li>A player can resolve an <span class="keyword">Omni:</span> ability even if it is on a card that does <strong>not</strong> belong to the active house.</li>
+					<li>Some artifacts require that they be sacrificed as part of the cost of using them. When an artifact is sacrificed, it is placed in its owner’s discard pile. A player must still exhaust such an artifact when using it.</li>
+					<li>Artifacts cannot be used to reap or to fight.</li>
+				</ul>
+			</div>
+
+			<h3>Using Creatures</h3>
+			<div>
+				<p>
+					When a player uses a creature, that player must exhaust the creature, and the player has the option to reap, fight, trigger the creature’s <span class="keyword">Action:</span> ability, or trigger the creature’s <span class="keyword">Omni:</span> ability. Any card effect that causes a creature to fight, reap, trigger its <span class="keyword">Action:</span> ability, or to trigger it’s <span class="keyword">Omni:</span> ability is causing that creature to be used.
+				</p>
+
+				<h4>Reap</h4>
+				<p>
+					<strong>Any ready creature of the active house may reap.</strong> When a creature is used to reap, the creature exhausts and its controller gains 1 Æmber for their Æmber pool. Then, all <span class="keyword">Reap:</span> abilities the creature has, if it has any, resolve.
+				</p>
+
+				<h4>Fight</h4>
+				<div>
+					<p>
+						<strong>Any ready creature of the active house may fight.</strong> When a creature is used to fight, the creature exhausts and its controller chooses one eligible creature controlled by the opponent as the target of the attack. Each of the two creatures deals an amount of damage equal to its power (the value to the left of the card’s title) to the other creature. All of this damage is dealt simultaneously. After the fight resolves, if the creature that is being used to fight survives, all <span class="keyword">Fight:</span> abilities the creature has, if it has any, resolve.
+					</p>
+					<p>
+						A creature cannot fight if there is no enemy creature that can be chosen as the target of the attack.
+					</p>
+				</div>
+
+				<h4>Action</h4>
+				<div>
+					<p>
+						<strong>Any ready creature of the active house may trigger its “Action:” ability, if it has one.</strong> When a creature is used to trigger its “Action:” ability, the creature exhausts and that “Action:” ability resolves.
+					</p>
+				</div>
+
+				<h4>Omni</h4>
+				<div>
+					<p>
+						<strong>Any ready creature may trigger its <span class="keyword">Omni:</span> ability, if it has one,</strong> even if it does <strong>not</strong> belong to the active house. When a creature is used to trigger its <span class="keyword">Omni:</span> ability, the creature exhausts and that <span class="keyword">Omni:</span> ability resolves.
+					</p>
+				</div>
+			</div>
+
+			<h3>Damage and Armor</h3>
+			<div>
+				<p>
+					When a creature is dealt damage, place an amount of damage tokens
+					equal to the amount of damage dealt on the creature. If a creature has as
+					much or more damage on it as it has power, the creature is destroyed and
+					placed on top of its owner’s discard pile. If a creature has an armor value
+					(to the right of the card’s title), the armor prevents that much incoming
+					damage each turn. (For more details, see “Armor” in the Glossary.) <!-- TODO link -->
+				</p>
+				<ul>
+					<li>
+						When a creature leaves play, any Æmber on that creature is gained by the opponent. (See “Capture” in the Glossary). <!-- TODO link -->
+					</li>
+				</ul>
+			</div>
+		</div>
+
+		<h2>Card Abilities</h2>
+		<div>
+			<p>Unless otherwise specified by the ability, the active player makes all decisions while resolving an ability.</p>
+			<p>For details on specific terminology that can be found in card ability text, see the Glossary.<!-- TODO link --></p>
+
+			<h3>Resolve as Much as You Can</h3>
+			<p class="example">
+				Aaron plays the card <a class="card">Anger (CoTA 001)</a>, that reads <q class="card-text">Play:
+				Ready and fight with a friendly creature.</q>, and chooses his friendly
+				<a class="card">Snufflegator (CoTA 358)</a> to resolve the ability on. However, the
+				Snufflegator is already ready, so Aaron ignores that part of the ability and
+				just uses his friendly Snufflegator to fight.
+			</p>
+
+			<h3>Resolve Abilities in the Order they are Written</h3>
+			<p>
+				While resolving the text of a card ability, fulfill the instructions of
+				that ability in the order the text is written. This may be modified by
+				replacement effects, including replacement effects which appear later in
+				the ability that is being resolved.
+			</p>
+			<p class="example">
+				<a class="card">Hyde (WC 167)</a> has the text: <q class="card-text">Reap: Draw a card. If you control
+				Velum, draw 2 cards instead.</q> The later text applies a replacement effect
+				for the earlier text, altering how it resolves.
+			</p>
+			<p>
+				However, all damage dealt by a card’s ability is dealt simultaneously regardless of where it appears in the ability’s text.
+			</p>
+			<p class="example">
+				<a class="card">Mighty Lance (CotA 221)</a> has the text: <q class="card-text">Play: Deal 3&#10039; to a
+				creature and 3&#10039; to a neighbor of that creature.</q> That damage to both creatures is dealt simultaneously even though it appears twice in the ability’s text.
+			</p>
+
+			<h3>Using Cards via Other Card Abilities</h3>
+			<p>
+				If a card ability allows a player to play or use another card (or to fight or to reap with a card), the chosen card may belong to any house unless the ability specifically states otherwise.
+			</p>
+			<ul>
+				<li>
+					When using a card via a card ability, any other requirements of using the card (such as exhausting to reap, fight, or resolve its <span class="keyword">Action</span> ability) must be observed, or the card cannot be used.
+				</li>
+				<li>
+					Players can only use cards they control, unless a card ability specifically states otherwise.
+				</li>
+			</ul>
+
+
+			<h3>The Rule of Six</h3>
+			<p>
+				Occasionally, a situation may emerge in which, through a combination of abilities, the same card may be played or used repeatedly during the same turn. A player cannot <strong>play and/or use</strong> the same card and/or other copies of that card (by title) more than <strong>six times</strong> during a given turn.
+			</p>
+
+			<h3>Constant Abilities</h3>
+			<div>
+				<img src="img/mother.jpg" alt="The card 'Mother' (CoTA 145), which has a constant ability"/>
+				<p class="caption">
+					The game text on <a class="card">Mother (CoTA 145)</a> is an example of a constant ability.
+				</p>
+			</div>
+			<p class="caption">
+				If a card has an ability that does not have a boldfaced precursor, the ability is a constant ability that is active so long as the card remains in play and meets all conditions specified by the ability.
+			</p>
+			<ul>
+				<li>Constant abilities on a card are active even while that card is exhausted.</li>
+				<li>Applying the effects of a constant ability is not considered using a card and therefore does not cause the card to exhaust.</li>
+			</ul>
+		</div>
+
+		<h2>Chains</h2>
+		<div>
+			<img src="img/chains.jpg" alt="The chain tracker"/>
+			<p>
+				Chains represent supernatural bindings that are occasionally placed onto specific Archons by the Architects: sometimes in an effort to better challenge the Archon to grow and overcome greater adversity, and other times to penalize the Archon for breaking a rule or a piece of Crucible etiquette.
+			</p>
+			<p>
+				A player may gain chains through card abilities during a game. When a player gains chains, that player increases their chain tracker by the number of chains gained.
+			</p>
+			<p>
+				Each time (including during setup) a player with one or more chains would draw one or more cards to refill their hand, that player draws fewer cards (based on their current chain level, see <a href="#chains">below</a>) and then sheds one chain by reducing their chain tracker by one. The more chains a player has, the greater the card penalty becomes.
+				<!-- TODO explain math -->
+			</p>
+			<table id="chains">
+				<thead>
+					<tr>
+						<th>Chains</th> <th>Effect</th>
+					</tr>
+				</thead>
+				<tbody>
+					<tr>
+						<td> 1–6</td>  <td>draw 1 fewer card.</td>
+					</tr>
+					<tr>
+						<td> 7–12</td> <td>draw 2 fewer cards.</td>
+					</tr>
+					<tr>
+						<td>13–18</td> <td>draw 3 fewer cards.</td>
+					</tr>
+					<tr>
+						<td>19–24</td> <td>draw 4 fewer cards.</td>
+					</tr>
+				</tbody>
+			</table>
+			<p class="example">
+				Tori has been assigned seven chains. During setup, Tori will draw two fewer cards and shed a chain. Then, the next six times Tori refills her hand, she will draw up to five cards and shed another chain. After all of her chains have been shed, Tori will draw to the standard hand size.
+			</p>
+
+			<h3>Chain Handicaps (Optional)</h3>
+
+			<p>
+				When playing a game between a weaker deck and a stronger deck, players may use chains as a means to handicap the stronger deck. Chains are used when players want a fair game between two known decks rather than a potentially unfair competition between decks that aren't known. When playing with new decks, or competing in a tournament, players will not use this handicap.
+			</p>
+
+			<h4>Suggestions for Assigning Chains</h4>
+			<p>
+				When the players have a sense that a particular deck is stronger than the opposing deck, start it with four chains. From then on, every time the chained deck wins three games in a row against that opposing deck, adjust the number of chains up by one, and if it loses three games in a row, adjust the number of chains down by one.
+			</p>
+			<p>
+				As a player plays more games with their collection, the number of chains assigned to a deck will fluctuate up and down based on the matchup and how well the deck has performed against the opposing deck.
+			</p>
+
+			<h4>Chain Bidding</h4>
+			<p>
+				If players are reasonably familiar with two decks they can ignore the suggested number of chains, and instead bid a number of chains for the right to use a particular deck.
+			</p>
+
+			<p class="example">
+				Terry and Julie decide to play <span class="deck-name">Mother Mahospot</span> against <span class="deck-name">Chancellor Fisher</span>. <span class="deck-name">Mother Mahospot</span> is a deck that both players are very familiar with, feel is quite strong, and enjoy playing. <span class="deck-name">Chancellor Fisher</span> is a newer deck, that the players are not as comfortable playing. The above guidelines suggest they begin with four chains on <span class="deck-name">Mother Mahospot</span>. Julie looks at Fisher, considers a moment, and says, “I’ll play <span class="deck-name">Mother Mahospot</span> at five.” Terry raises to six. Julie goes to seven. Terry decides to let her play it at seven, and plays <span class="deck-name">Chancellor Fisher</span>.
+			</p>
+		</div>
+
+
+		<h2>What's Next</h2>
+		<div>
+			<p>
+				You are now familiar with the basic rules of the game. The next section
+				of this book contains a Glossary of advanced concepts that can be
+				referenced while playing or interpreting card abilities.
+			</p>
+			<p>
+				An <del>introduction to the KeyForge setting, with two short stories and an </del>introduction to each of the houses in the game, can be found <del>on page 15</del> <!-- TODO link --><ins><a href="">at the end</a></ins>.
+			</p>
+		</div>
+	</body>
+</html>
